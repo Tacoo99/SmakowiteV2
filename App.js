@@ -5,7 +5,7 @@ import {NavigationContainer} from "@react-navigation/native";
 
 const Stack = createStackNavigator();
 
-import { Welcome } from './screens';
+import { Welcome, SignIn, SignUp, Home } from './screens';
 
 const App = () => {
   return (
@@ -18,6 +18,9 @@ const App = () => {
             initialRouteName={"Welcome"}
         >
             <Stack.Screen name="Welcome" component={Welcome} />
+            <Stack.Screen name="SignIn" component={SignIn} />
+            <Stack.Screen name="SignUp" component={SignUp} />
+            <Stack.Screen name="Home" component={Home} />
 
         </Stack.Navigator>
 

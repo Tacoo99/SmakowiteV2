@@ -11,7 +11,7 @@ import {
     images, colors
 } from "../constants";
 
-const welcome = ({ navigation })  => {
+const Welcome = ({ navigation })  => {
     return(
         <View
             style={{
@@ -61,12 +61,12 @@ const welcome = ({ navigation })  => {
             style={{
                 alignItems: 'center',
                 backgroundColor: colors.primary,
-                top: 350,
+                top: 240,
                 borderRadius: 30,
                 width: 300,
                 height: 60,
             }}
-                onPress = {navigation.replace("SingIn")}
+            onPress={() => navigation.replace("SignIn")}
                 >
 
                     <Text
@@ -86,12 +86,12 @@ const welcome = ({ navigation })  => {
             style={{
                 alignItems: 'center',
                 backgroundColor: colors.primary,
-                top: 370,
+                top: 270,
                 borderRadius: 30,
                 width: 300,
                 height: 60,
             }}
-                onPress = {navigation.replace("SingUp")}
+            onPress={() => navigation.replace("SignUp")}
                 >
 
                     <Text
@@ -107,12 +107,10 @@ const welcome = ({ navigation })  => {
 
             </TouchableOpacity>
 
-
-
         </View>
 
     )
 }
 
 
-export default welcome;
+export default Welcome;
