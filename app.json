@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ef6136"
-      }
+      },
+      "package": "com.smakowitev2"
     },
     "web": {
       "favicon": "./assets/icon.png"
