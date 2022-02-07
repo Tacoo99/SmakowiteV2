@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Text, View, Image, StyleSheet, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import { Text, View, Image, StyleSheet} from 'react-native';
+import { images } from "../constants";
 
 
 const styles = StyleSheet.create({
@@ -31,7 +31,7 @@ const Cart = () => {
       }}>
       
         <Image
-          source={require ("../assets/images/empty-bag.png") }
+          source={ images.empty_bag }
           style={{ width: 150, height: 150, marginBottom: 12 }}
         />
         <Text

@@ -5,6 +5,7 @@ import Home from "./Home"
 import Tabs from "./Tabs"
 import Cart from "./Cart"
 import Account from "./Account"
+import Drawer from "./Drawer"
 
 export {
     Welcome,
@@ -13,5 +14,6 @@ export {
     Home,
     Tabs,
     Cart,
-    Account
+    Account,
+    Drawer
 }
